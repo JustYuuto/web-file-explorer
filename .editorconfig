@@ -4,3 +4,7 @@ root = true
 indent_size = 2
 indent_style = space
 ij_javascript_use_double_quotes = false
+ij_javascript_force_quote_style = true
+ij_javascript_spaces_within_imports = true
+ij_javascript_spaces_within_object_literal_braces = true
+ij_javascript_spaces_within_object_type_braces = true
