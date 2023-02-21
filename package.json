@@ -1,0 +1,25 @@
+{
+  "name": "web-file-explorer",
+  "version": "1.0.0",
+  "description": "A Web File Explorer, using Express",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "8.22.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "repository": "https://github.com/JustYuuto/web-file-explorer.git",
+  "author": "Yuuto",
+  "license": "MIT"
+}
