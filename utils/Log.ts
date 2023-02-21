@@ -6,6 +6,7 @@ export default class Log {
 
   private log(type: Log['type'], message: string) {
     const color = this.getColor(type);
+    // @ts-ignore
     console.log(chalk[color].bold(`[${type.toUpperCase()}]`) + ' ' + message);
   }
 
@@ -31,6 +32,7 @@ export default class Log {
     else if (type === 'success') color = 'green';
     else if (type === 'error') color = 'red';
     else if (type === 'warn') color = 'yellow';
+    else color = 'white';
     return color;
   }
 
