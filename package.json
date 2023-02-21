@@ -4,10 +4,11 @@
   "description": "A Web File Explorer, using Express",
   "main": "src/index.ts",
   "scripts": {
+    "dev": "nodemon src/index.ts",
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
+    "chalk": "4.1.2",
     "express": "^4.18.2"
   },
   "devDependencies": {
@@ -16,6 +17,7 @@
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
     "eslint": "8.22.0",
+    "nodemon": "^2.0.20",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },
